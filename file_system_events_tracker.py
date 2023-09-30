@@ -7,7 +7,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # Set the path for the directory to track changes
-from_dir = "<\kanis\OneDrive\Desktop>"
+from_dir = "<to set path>"
 
 # Create a FileEventHandler class to track file system events
 class FileEventHandler(FileSystemEventHandler):
